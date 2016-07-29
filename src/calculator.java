@@ -279,7 +279,7 @@ public class calculator {
                 answer=CalculatorMain(input);
                 anss=String.valueOf(answer);
                 anss=removePoint(anss);
-                System.out.print("RESULT :" +anss);
+                System.out.print("RESULT :"+anss);
         }
 
     }
