@@ -1,3 +1,4 @@
+package IndependantModules;
 /**
  * Created by D'codex on August 2016.
  */
