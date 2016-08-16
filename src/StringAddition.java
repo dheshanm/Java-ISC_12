@@ -16,10 +16,8 @@ public class StringAddition {
         String output="";
         System.out.print("Enter a Number [A]    :");
         String num1=in.nextLine();
-        //num1="0"+num1;
         System.out.print("Enter a Number [B]    :");
         String num2=in.nextLine();
-        //num2="0"+num2;
         if(num1.length()!=num2.length()){
             if(num1.length()>num2.length())
                 num2 = Equalizer(num2, num1.length());
@@ -33,15 +31,13 @@ public class StringAddition {
             if(tempout>9){
                 if(carry==1){
                     tempout=tempout+carry;
-                    carry=0;
                     String temp526=String.valueOf(tempout);
                     output=temp526.charAt(temp526.length()-1)+output;
-                    carry=tempout%10;
+                    carry=tempout/10;
                 }
                 else{
                     String temp527=String.valueOf(tempout);
                     output=temp527.charAt(temp527.length()-1)+output;
-                    //System.out.print(output);
                     carry=1;
                 }
 
@@ -49,11 +45,11 @@ public class StringAddition {
             else{
                 if(carry==1){
                     tempout=tempout+carry;
-                    carry=0;
+                    carry=tempout/10;
                     if(tempout>9){
                         String temp525=String.valueOf(tempout);
                         output=temp525.charAt(temp525.length()-1)+output;
-                        carry=1;
+                        //carry=1;
                     }
                     else
                         output=String.valueOf(tempout)+output;
@@ -64,8 +60,9 @@ public class StringAddition {
                 }
             }
         }
-        if(carry==1)
+        if(carry==1){
             output="1"+output;
+        }
         System.out.print("[A]   +   [B]     =   "+output);
     }
 }
