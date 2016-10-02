@@ -1,0 +1,101 @@
+Question 1
+
+A sentence in the Special Fashion can be printed by taking two integers (not beyond
+ total number of words in the sentence or less than 1). These integers tell the word number of the
+ sentence. Replace only those words present at those given integer places by the next character in
+ a circular fashion according to the English Alphabets. If both the integers are same then replace
+ only one word. let us consider the following examples:
+ Input Sentence: He has good Books.
+ Input Integers: 2, 4
+ Output Sentence: He ibt good Cpplt.
+ (i.e. word number 2 and 4 have been replaced by the next characters in a circular fashion)
+ Input Sentence: Time and tide waits for
+ Input Integers: 3, 3
+ Output Sentence: Time and ujef waits for none.
+ Write a case sensitive program that reads a sentence from console (the characters of the sentence
+ may be capital or small or mixed) and two positive integers and output the same sentence after
+ replacing those words present at those given integer places by the next character in a circular
+ fashion according to the English Alphabets.
+ In the first example given above, word number 2, i.e. “has” is replaced by next characters and
+ hence it becomes “ibt”. Similarly, word number 4, i.e. “Books” is replaced by next characters
+ and hence it becomes “Cpplt”.
+
+ Question 2
+
+ Write a java program to find out a given matrix is sparse matrix or not. Sparse
+  matrix contains zero elements above a certain threshold. This threshold is given by (n*m)/2,
+  where n and m are the rows and columns in matrix. Hence, if a matrix contains more than n*m/2
+  number of zeros it is sparse matrix otherwise not.
+  Enter the dimensions of the matrix:
+  2 3
+
+  Enter the elements of the matrix:
+  1 0 0
+  2 1 1
+
+  The matrix is not a sparse matrix
+  Enter the dimensions of the matrix:
+  3 4
+  Enter the elements of the matrix:
+  1 0 0 0
+  1 0 0 0
+  1 0 0 0
+
+  The matrix is a sparse matrix
+
+  Question 3
+
+  Write a program to accept the year, month and the weekday name of the 1st day of
+   that month and generate its calendar.
+   Example :
+   INPUT : 
+   Year : 2016
+   Month : February
+   1st day of February : Monday
+
+   OUTPUT :
+   -------------------------------------------
+                 February 2016
+   -------------------------------------------
+   SUN    MON   TUE   WED   THU   FRI   SAT
+   -------------------------------------------
+           1      2    3     4     5     6
+   -------------------------------------------
+    7      8      9    10    11    12    13
+   -------------------------------------------
+    14     15     16   17    18    19    20
+   -------------------------------------------
+    21     22     23   24    25    26    27
+   -------------------------------------------
+    28     29
+   -------------------------------------------
+
+   Question 4
+
+   Write a program to accept a date in the string format dd/mm/yyyy and accept
+    the name of the day on 1st of January of the corresponding year. Find the day for the given
+    date
+    Example:
+    INPUT:
+    Date : 5/7/2001
+    Day on 1st January : MONDAY
+    OUTPUT: Day on 5/7/2001 : THURSDAY
+
+    Question 5
+
+    Write a Program in Java to input a number and check whether it is
+     a Fascinating Number or not..
+     Fascinating Numbers : Some numbers of 3 digits or more exhibit a very interesting
+     property. The property is such that, when the number is multiplied by 2 and 3, and both
+     these products are concatenated with the original number, all digits from 1 to 9 are present
+     exactly once, regardless of the number of zeroes.
+
+     Let’s understand the concept of Fascinating Number through the following example:
+     Consider the number 192,
+     192 x 1 = 192
+     192 x 2 = 384
+     192 x 3 = 576
+     Concatenating the results : 192384576
+     It could be observed that ‘192384576’ consists of all digits from 1 to 9 exactly once.
+     Hence, it could be concluded that 192 is a Fascinating Number.Some examples of
+     fascinating Numbers are : 192, 219, 273, 327, 1902, 1920, 2019 etc.

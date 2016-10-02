@@ -2,7 +2,6 @@
  * Created by D'codex on August 2016.
  */
 import java.util.*;
-import java.util.concurrent.SynchronousQueue;
 
 public class Practicals1 {
     public static String Equalizer(String input,int length){
