@@ -16,16 +16,16 @@ public class Question31 {
         N=n;
     }
     void initiate() {
-        partition(N, N, "");
+        split(N, N, "");
     }
-    void partition(int n, int max, String prefix) {
+    void split(int n, int max, String prefix) {
         if (n == 0) {
             System.out.println(prefix);
             return;
         }
 
         for (int i = Math.min(max, n); i >= 1; i--) {
-            partition(n-i, i, prefix + " " + i);
+            split(n-i, i, prefix + " " + i);
         }
     }
 
