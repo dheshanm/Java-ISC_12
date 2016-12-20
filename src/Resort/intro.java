@@ -25,26 +25,31 @@ public class intro {
             else
                 i=i+1;
         }
-        if(flag){
-            boolean duplicate=false;
+        if(flag) {
+            boolean duplicate = false;
+            String IDInp="";
             System.out.println("NEW User Detected");
             System.out.print("Enter your Name   :");
-            String nameInp=in.nextLine();
-            writer users=new writer("users");
-            users.Write(nameInp);
-            System.out.print("Enter a UserID    :");
-            String IDInp=in.nextLine();
-            writer userid=new writer("userid");
-            Scanner sf = new Scanner(new File("userid.txt"));
-            while(sf.hasNextLine()){
-                String dupCheck=sf.nextLine();
-                if(dupCheck==IDInp){
-                    duplicate=true;
+            String nameInp = in.nextLine();
+            writer users = new writer("users");
+            boolean loop = true;
+            while (loop) {
+                System.out.print("Enter a UserID    :");
+                IDInp = in.nextLine();
+                Scanner sf = new Scanner(new File("userid.txt"));
+                while (sf.hasNextLine()) {
+                    String dupCheck = sf.nextLine();
+                    if (dupCheck == IDInp) {
+                        duplicate = true;
+                        System.out.println("User ID already in USE.Please select a Different ID.");
+                    }
                 }
+                if(!duplicate)
+                    loop=false;
             }
-            if(duplicate){
-
-            }
+            writer userid = new writer("userid");
+            users.Write(nameInp);
+            userid.Write(IDInp);
         }
     }
 }
