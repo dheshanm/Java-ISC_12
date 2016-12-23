@@ -1,3 +1,5 @@
+package Library;
+
 import jdk.nashorn.internal.ir.ContinueNode;
 
 import java.io.*;
@@ -7,6 +9,7 @@ import java.util.*;
  */
 public class LibraryManagement {
     public static void Writer(String input) throws IOException {
+
         FileWriter fw = new FileWriter("LibraryDatabase.txt",true);
         BufferedWriter bw=new BufferedWriter(fw);
         PrintWriter pw=new PrintWriter(bw);
