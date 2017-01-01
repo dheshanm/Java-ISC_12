@@ -95,7 +95,7 @@ class PiCalculator {
 
     public static void main(String args[]) throws IOException
     {
-        System.out.println("How many digits of pi do you want see?:");
+        System.out.println("How many digits of pi do you want calculate?:");
 
         int userAns = 20;
         try(BufferedReader in = new BufferedReader(new InputStreamReader(System.in))) {

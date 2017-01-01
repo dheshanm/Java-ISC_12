@@ -20,7 +20,7 @@ public class Mobius {
         for(String word:data.split(" ")){
             Integer count=repeated.get(word);
             if(count==null)
-                count=0;
+                count=1;
             else {
                 count = count + 1;
                 flag=true;
