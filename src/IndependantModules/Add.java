@@ -1,4 +1,4 @@
-package InduvidualModules;
+package IndependantModules;
 
 import java.util.Scanner;
 
