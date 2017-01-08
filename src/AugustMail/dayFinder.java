@@ -11,7 +11,7 @@ import java.util.*;
  Day on 1st January : MONDAY
  OUTPUT: Day on 5/7/2001 : THURSDAY
  */
-public class Question4 {
+public class dayFinder {
     static Scanner in=new Scanner(System.in);
     public static void main(String Args[]){
         int Days[]={31,28,31,30,31,30,31,31,30,31,30,31};

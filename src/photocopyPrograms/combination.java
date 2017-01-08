@@ -4,12 +4,12 @@ import java.util.*;
 /**
  * Created by D'codex on December 2016.
  */
-public class Question31 {
+public class combination {
     int N;
-    Question31(int n){
+    combination(int n){
         int N=n;
     }
-    Question31(){
+    combination(){
         Scanner in=new Scanner(System.in);
         System.out.print("Enter the Number N  :");
         int n = in.nextInt();
@@ -31,7 +31,7 @@ public class Question31 {
 
 
     public static void main(String[] args) {
-        Question31 ob=new Question31();
+        combination ob=new combination();
         ob.initiate();
     }
 }

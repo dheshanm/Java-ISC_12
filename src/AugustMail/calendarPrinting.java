@@ -27,7 +27,7 @@ import java.util.*;
   28     29
  -------------------------------------------
  */
-public class Question3 {
+public class calendarPrinting {
     static Scanner in=new Scanner(System.in);
     public static void main (String Args[]){
         System.out.print("Year  :");

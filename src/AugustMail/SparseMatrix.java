@@ -23,7 +23,7 @@ import java.util.*;
 
  The matrix is a sparse matrix
  */
-public class Question2 {
+public class SparseMatrix {
     static Scanner in=new Scanner(System.in);
     public static void main(String Args[]){
         System.out.print("Enter the Dimensions of the matrix    :");

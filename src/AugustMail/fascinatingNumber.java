@@ -19,7 +19,7 @@ import java.util.*;
  Hence, it could be concluded that 192 is a Fascinating Number.Some examples of
  fascinating Numbers are : 192, 219, 273, 327, 1902, 1920, 2019 etc.
  */
-public class Question5 {
+public class fascinatingNumber {
     static Scanner in=new Scanner(System.in);
     public static int sumOfDigits(String input){
         int output=0;
