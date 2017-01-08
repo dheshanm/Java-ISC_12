@@ -1,4 +1,4 @@
-/**
+package Practicals; /**
  * Created by D'codex on August 2016.
  */
 import java.util.*;
