@@ -26,7 +26,7 @@ This repo contains programs for
 15.	Display word starting and ending with vowel		
 16.	Special String		
 17.	Pendulum array		
-18.	Rotate matrix by 900		
+18.	Rotate matrix by 90 degree		
 19.	Wondrous matrix		
 20.	Sparse matrix		
 21.	Fire array		
