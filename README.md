@@ -26,7 +26,7 @@ This repo contains programs for
 15.	Display word starting and ending with vowel		
 16.	Special String		
 17.	Pendulum array		
-18.	Rotate matrix by 90 degree		
+18.	Rotate matrix by 900		
 19.	Wondrous matrix		
 20.	Sparse matrix		
 21.	Fire array		
@@ -41,7 +41,6 @@ This repo contains programs for
 30.	Tree traversal		
 
 ```
-
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
