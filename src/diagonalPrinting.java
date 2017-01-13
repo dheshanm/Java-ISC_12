@@ -14,5 +14,24 @@ public class diagonalPrinting {
                 arr[i][j]=in.nextInt();
             }
         }
+        System.out.println("\nInput Array");
+        for (int[] anArr : arr) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(anArr[j] + "\t");
+            }
+            System.out.println();
+        }
+        System.out.println("\nElements in the leading diagonal are    :");
+        for(int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==j) {
+                    System.out.print(arr[i][j]);
+                    System.out.print(" ");
+                }
+                else
+                    System.out.print("   ");
+            }
+            System.out.println();
+        }
     }
 }

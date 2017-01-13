@@ -1,9 +1,9 @@
-package Practicals; /**
+/**
  * Created by D'codex on August 2016.
  */
 import java.util.*;
 
-public class Practicals1 {
+public class EqualizeNumbers {
     public static String Equalizer(String input,int length){
         for(int i=input.length();i<length;i++){
             input="0"+input;
