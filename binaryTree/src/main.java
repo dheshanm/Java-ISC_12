@@ -1,5 +1,3 @@
-package binaryTree;
-
 /**
  * Created by D'codex on December 2016.
  */

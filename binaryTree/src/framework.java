@@ -1,4 +1,3 @@
-package binaryTree;
 import java.util.*;
 
 /**
@@ -33,7 +32,7 @@ public class framework {
                 }
                 System.out.print("Is the node Parent's Left?");
                 String temp=in0.next();
-                if(temp.equalsIgnoreCase("yes")||temp.equalsIgnoreCase("y")){
+                if(temp.equalsIgnoreCase("yes")||temp.equalsIgnoreCase("y")||temp.equalsIgnoreCase("1")){
                     int t=Integer.valueOf(parentID);
                     bTree.binaryTree[t].hasLeft=true;
                     bTree.binaryTree[t].leftNodeID=bTree.binaryTree[i].nodeID;
