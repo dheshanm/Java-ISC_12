@@ -9,36 +9,36 @@ This repostory contains Java Programs coded for ISC Examination 2017's Computer 
 This repo contains programs for 
 
 ```markdown
-1.	Circular Prime		
-2.	Fascinating number 		
-3.	Grey code generation		
-4.	Mobius function		
-5.	Binary operations		
-6.	Combination printing		
-7.	Equaling two numbers		
-8.	Finding day for the date		
-9.	Calendar of a month		
-10.	Encryption		
-11.	Paragraph analyzing		
-12.	Swapping vowels		
-13.	Arranging in alphabetical order		
-14.	Counting consonants and vowels		
-15.	Display word starting and ending with vowel		
-16.	Special String		
-17.	Pendulum array		
-18.	Rotate matrix by 90 degree		
-19.	Wondrous matrix		
-20.	Sparse matrix		
-21.	Fire array		
-22.	Diagonal printing		
-23.	Checking special number using function		
-24.	Removing duplicate element from an array		
-25.	Cyclic number and string using method overloading		
-26.	Calculating PF and gratuity using inheritance		
-27.	Library management		
+1.	[Circular Prime](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/circularPrime.java) 		
+2.	[Fascinating number](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/AugustMail/fascinatingNumber.java)
+3.	[Grey code generation](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/greyCode.java)		
+4.	[Mobius function](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/photocopyPrograms/Mobius.java)		
+5.	[Binary operations](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/Binary.java)		
+6.	[Combination printing](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/photocopyPrograms/combination.java)		
+7.	[Equaling two numbers](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/EqualizeNumbers.java)		
+8.	[Finding day for the date](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/AugustMail/dayFinder.java)	
+9.	[Calendar of a month](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/AugustMail/calendarPrinting.java)		
+10.	[Encryption](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/Encrypt.java)		
+11.	[Paragraph analyzing](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/paragraph.java)
+12.	[Swapping vowels](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/vowelSwap.java)		
+13.	[Arranging in alphabetical order](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/sortAlphabetical.java)		
+14.	[Counting consonants and vowels](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/countingVowels.java)		
+15.	[Display word starting and ending with vowel](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/startendWithVowel.java)		
+16.	[Special String](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/photocopyPrograms/special.java)		
+17.	[Pendulum array](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/Pendulam.java)		
+18.	[Rotate matrix by 90 degree](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/rotateMatrix.java)		
+19.	[Wondrous matrix](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/wonderousMatrix.java)		
+20.	[Sparse matrix](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/AugustMail/SparseMatrix.java)		
+21.	[Fire array](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/fireMatrix.java)		
+22.	[Diagonal printing](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/diagonalPrinting.java)		
+23.	[Checking special number using function](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/AugustMail/Questions)		
+24.	[Removing duplicate element from an array](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/photocopyPrograms/Duplicate.java)		
+25.	[Cyclic number and string using method overloading](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/cyclicNum.java)		
+26.	[Calculating PF and gratuity using inheritance](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/photocopyPrograms/Retirement/Retire.java)		
+27.	[Library management](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/Library/LibraryManagement.java)		
 28.	Banking		
 29.	Resort management		
-30.	Tree traversal		
+30.	[Tree traversal](https://github.com/D-codex/Java-ISC_12/blob/dc5b3fe1a0c333fccb7d19ad00316435702b6721/src/binaryTree/main.java)		
 
 ```
 
