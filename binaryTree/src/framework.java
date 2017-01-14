@@ -35,11 +35,13 @@ public class framework {
                 if(temp.equalsIgnoreCase("yes")||temp.equalsIgnoreCase("y")||temp.equalsIgnoreCase("1")){
                     int t=Integer.valueOf(parentID);
                     bTree.binaryTree[t].hasLeft=true;
+                    bTree.binaryTree[t].HasLeftUA=true;
                     bTree.binaryTree[t].leftNodeID=bTree.binaryTree[i].nodeID;
                 }
                 else {
                     int t=Integer.valueOf(parentID);
                     bTree.binaryTree[t].hasRight = true;
+                    bTree.binaryTree[t].HasRightUA=true;
                     bTree.binaryTree[t].rightNodeID=bTree.binaryTree[i].nodeID;
                 }
             }
@@ -64,23 +66,22 @@ public class framework {
             System.out.println("isRoot                      :"+bTree.binaryTree[i].isRoot);
             System.out.println("Data                        :"+bTree.binaryTree[i].Data);
             System.out.println("Number of Children Nodes    :"+bTree.binaryTree[i].childrenNodeCount);
-            System.out.println("hasLeft                     :"+bTree.binaryTree[i].hasLeft);
-            if(bTree.binaryTree[i].hasLeft)
+            System.out.println("hasLeft                     :"+bTree.binaryTree[i].HasLeftUA);
+            if(bTree.binaryTree[i].HasLeftUA)
                 System.out.println("LeftNodeID                  :"+bTree.binaryTree[i].leftNodeID);
-            System.out.println("hasRight                    :"+bTree.binaryTree[i].hasRight);
-            if(bTree.binaryTree[i].hasRight)
+            System.out.println("hasRight                    :"+bTree.binaryTree[i].HasRightUA);
+            if(bTree.binaryTree[i].HasRightUA)
                 System.out.println("RightNodeID                 :"+bTree.binaryTree[i].rightNodeID);
             System.out.println("parentID                    :"+bTree.binaryTree[i].fetchRoot());
             System.out.println("SiblingPairs (if any)       :"+bTree.binaryTree[i].fetchSiblingID());
             System.out.println("____________________________________________________________________________");
         }
         System.out.println("Tree Specifications");
-        System.out.println("Total No. of Nodes              :"+bTree.count);
-        System.out.println("Height of Tree                  :"+bTree.height);
-        System.out.println("Depth of Tree                   :"+bTree.depth);
-        System.out.println("Leaves                          :"+bTree.leaves.trim());
-        System.out.println("Sibling Pairs                   :"+bTree.siblingPairs.trim());
-        System.out.println("Traversal                       :"+bTree.Traversal);
-        System.out.println("Traversal Pre-Order             :"+bTree.TraversalPre);
+        System.out.println("Total No. of Nodes       :"+bTree.count);
+        System.out.println("Height of Tree           :"+bTree.height);
+        System.out.println("Depth of Tree            :"+bTree.depth);
+        System.out.println("Leaves                   :"+bTree.leaves.trim());
+        System.out.println("Sibling Pairs            :"+bTree.siblingPairs.trim());
+        System.out.println("Traversal                :"+bTree.Traversal);
     }
 }

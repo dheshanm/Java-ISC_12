@@ -8,6 +8,7 @@ public class node {
     boolean isRootPrimary,isRoot,TraversalStatus;
     String Data;
     String nodeID,leftNodeID,rightNodeID,parentID;
+    boolean HasLeftUA,HasRightUA;
     int childrenNodeCount;
     node(){
         hasLeft=false;

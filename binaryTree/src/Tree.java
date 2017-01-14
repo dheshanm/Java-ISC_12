@@ -6,22 +6,23 @@ import java.util.*;
 public class Tree {
     node binaryTree[],duplicate0[],duplicate1[],duplicate2[];
     int count;int rootID,height,depth;
-    String siblingPairs,leaves,Traversal,TraversalPre,TraversalPost;
+    String siblingPairs,leaves,Traversal;
     Tree(int count0){
         binaryTree =new node[count0];
         duplicate0=new node[count0];
-        duplicate1=new node[count0];
-        duplicate2=new node[count0];
         for(int i=0;i<count0;i++){
             binaryTree[i]=new node();
             duplicate0[i]=new node();
-            duplicate1[i]=new node();
-            duplicate2[i]=new node();
         }
         count=count0;
         rootID=0;
         height=0;depth=0;
-        leaves="";siblingPairs="";Traversal="";TraversalPre="";
+        leaves="";siblingPairs="";Traversal="";
+    }
+    public Tree copy(Tree copy){
+        Tree new0=new Tree(copy.count);
+        new0.binaryTree=copy.binaryTree;
+        return new0;
     }
     void finalise(){
         for(int i=0;i<count;i++){
@@ -52,15 +53,15 @@ public class Tree {
             node temp = duplicate0[0];
             while (t < count) {
                 if (temp.hasLeft) {
-                        temp = duplicate0[Integer.parseInt(temp.leftNodeID)];
+                    temp = duplicate0[Integer.parseInt(temp.leftNodeID)];
                 }
                 else {
                     if(!temp.hasLeft&&temp.hasRight) {
                         Traversal = Traversal + " " + temp.Data;
                         t = t + 1;
                         duplicate0[Integer.parseInt(temp.fetchID())].TraversalStatus=true;
-                            duplicate0[Integer.parseInt(temp.fetchRoot())].hasLeft = false;
-                            duplicate0[Integer.parseInt(temp.fetchRoot())].hasLeft = false;
+                        duplicate0[Integer.parseInt(temp.fetchRoot())].hasLeft = false;
+                        duplicate0[Integer.parseInt(temp.fetchRoot())].hasLeft = false;
                         temp = duplicate0[Integer.parseInt(temp.rightNodeID)];
                     }
                     else if(!duplicate0[Integer.parseInt(temp.fetchRoot())].hasRight){
@@ -83,6 +84,5 @@ public class Tree {
                 }
             }
         }
-
     }
 }
