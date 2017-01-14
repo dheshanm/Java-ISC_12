@@ -1,4 +1,3 @@
-package photocopyPrograms;
 import java.util.*;
 
 /**

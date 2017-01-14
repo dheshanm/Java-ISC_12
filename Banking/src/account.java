@@ -40,7 +40,7 @@ public class account implements Serializable{
                     flag=false;
             }
         }
-        transactionHistory="";
+        transactionHistory="Action\t\tDebit\t\tCredit\t\tBalance\n";
         balance="0";
     }
 }
