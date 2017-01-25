@@ -77,7 +77,7 @@ public class Tree {
                         while(duplicate0[Integer.parseInt(temp.fetchID())].TraversalStatus) {
                             temp = duplicate0[Integer.parseInt(temp.parentID)];
                             i0++;
-                            if(i0>=5)
+                            if(i0>=15)
                                 break;
                         }
                     }

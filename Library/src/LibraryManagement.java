@@ -109,6 +109,7 @@ public class LibraryManagement {
             }
             if(ck=="1"||ck.equalsIgnoreCase("Yes")){
                 System.out.println("_______________________________________________________________________");
+                ck="";
                 continue;
             }
             else {
