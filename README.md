@@ -1,6 +1,6 @@
 ## Welcome to this Collection on Java Progrmas by L4TTiCe
 
-These programs were put together by L4TTiCe [Twitter](https://twitter.com/l4ttice) [Facebook](https://www.facebook.com/mdheshan) to suggest edits or poit out mistakes please contact L4TTice via email dheshan.mail@gmail.com or file an issue.
+These programs were put together by [L4TTiCe](https://github.com/L4TTiCe) to suggest edits or poit out mistakes please contact L4TTice via email dheshan.mail@gmail.com or file an issue.
 
 This repostory contains Java Programs coded for ISC Examination 2017's Computer Science Practical File and were coded in Jetbrains IntelliJ IDE.
 
@@ -41,7 +41,3 @@ This repo contains programs for
 30.	Tree traversal		
 
 ```
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-[Edit](https://github.com/D-codex/Java-ISC_12/edit/master/README.md)
